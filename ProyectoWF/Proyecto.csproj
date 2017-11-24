@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{634C2C3B-2A0A-46C1-B294-E72D430DBC00}</ProjectGuid>
+    <ProjectGuid>{49F12913-5FEB-464D-89F5-2B30E439A927}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ProyectoWF</RootNamespace>
-    <AssemblyName>ProyectoWF</AssemblyName>
+    <RootNamespace>Proyecto</RootNamespace>
+    <AssemblyName>Proyecto</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
