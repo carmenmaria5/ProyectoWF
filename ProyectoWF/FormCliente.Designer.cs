@@ -454,7 +454,7 @@
             this.tableLayoutPanel12.RowCount = 1;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel12.Size = new System.Drawing.Size(289, 120);
-            this.tableLayoutPanel12.TabIndex = 17;
+            this.tableLayoutPanel12.TabIndex = 0;
             // 
             // groupBox4
             // 
@@ -524,6 +524,7 @@
             // tbLogo
             // 
             this.tbLogo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.tbLogo.Enabled = false;
             this.tbLogo.Location = new System.Drawing.Point(78, 50);
             this.tbLogo.Name = "tbLogo";
             this.tbLogo.Size = new System.Drawing.Size(149, 20);
@@ -551,6 +552,7 @@
             this.btLogo.TabIndex = 3;
             this.btLogo.Text = "...";
             this.btLogo.UseVisualStyleBackColor = true;
+            this.btLogo.Click += new System.EventHandler(this.btLogo_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -582,7 +584,7 @@
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.tableLayoutPanel8.Size = new System.Drawing.Size(281, 39);
             this.tableLayoutPanel8.TabIndex = 0;
             // 
