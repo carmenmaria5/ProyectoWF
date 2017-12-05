@@ -102,6 +102,11 @@ namespace Proyecto {
             }
         }
 
+        /// <summary>
+        /// Método click para el botón de la imagen.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btLogo_Click(object sender, EventArgs e)
         {
             //Abre la ventana del explorador para seleccionar la imagen
@@ -128,6 +133,13 @@ namespace Proyecto {
             }
         }
 
+        /// <summary>
+        /// Botón aceptar.
+        /// Comprueba si existe el campo obligatorio. En caso de ser nulo, muestra un messageBox.
+        /// En otro caso, realiza las consultas de inserción y modificación, dependiendo del caso especificado.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btAceptar_Click(object sender, EventArgs e)
         {
             //Compruebo si el campo obligatorio no está relleno
@@ -220,6 +232,12 @@ namespace Proyecto {
             }
         }
 
+        /// <summary>
+        /// Botón cancelar. 
+        /// Cierra el formulario y la conexión a la base de datos.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btCancelar_Click(object sender, EventArgs e)
         {
             this.Close();
